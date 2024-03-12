@@ -1,7 +1,3 @@
-
-
-
-
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -24,7 +20,6 @@ const HeroBanner = () => {
             url.backdrop +
             data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
         setBackground(bg);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [data]);
 
     const searchQueryHandler = (event) => {
@@ -44,9 +39,10 @@ const HeroBanner = () => {
             <div className="opacity-layer"></div>
             <ContentWrapper>
                 <div className="heroBannerContent">
-                   <marquee /><span className="title">Welcome to Movix</span>
+                    {/* <marquee><span className="title">MOVIZ BY ABHISHEK</span></marquee>  */}
+                    <span className="title">Welcome to MOVIZ</span>
                     <span className="subTitle">
-                        Millions of Movies, TV Shows and People to Discover.
+                        Millions of movies, TV shows and many More to discover.
                         Explore now.
                     </span>
                     <div className="searchInput">
@@ -56,8 +52,10 @@ const HeroBanner = () => {
                             onChange={(e) => setQuery(e.target.value)}
                             onKeyUp={searchQueryHandler}
                         />
-                        <button>Search</button>
+                        <button >Search</button>
+
                     </div>
+                    
                 </div>
             </ContentWrapper>
         </div>

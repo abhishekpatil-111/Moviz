@@ -22,12 +22,9 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                   
+                    Explore the world of cinema with MOVIZ. Your go-to source for the latest movie information, reviews, and more. Connect with us on social media and stay updated with the latest releases of 2024  <br></br>&copy; MOVIZ All Rights Reserved.<br></br>
+                    These Platform is Developed and Maintained by : ABHISHEK PATIL (Developer/Owner)
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
@@ -43,6 +40,22 @@ const Footer = () => {
                         <FaLinkedin />
                     </span>
                 </div>
+
+{/* <div className="socialIcons">
+    <a href="https://www.facebook.com/your-facebook-page"  className="icon" visited>
+        <FaFacebookF />
+    </a>
+    <a href="https://www.instagram.com/your-instagram-page" className="icon">
+        <FaInstagram />
+    </a>
+    <a href="https://www.twitter.com/your-twitter-page" className="icon">
+        <FaTwitter />
+    </a>
+    <a href="https://www.linkedin.com/in/your-linkedin-profile" className="icon">
+        <FaLinkedin />
+    </a>
+</div> */}
+
             </ContentWrapper>
         </footer>
     );
